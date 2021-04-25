@@ -1,0 +1,21 @@
+//Program to check whether the person is eligible to vote or not
+#include<iostream>
+using namespace std;
+int main()
+{
+	int age;
+	char name[20];
+	cout<<"Enter candidate name:";
+	cin>>name;
+	cout<<"Enter age of "<<name<<":";
+	cin>>age;
+	if(age>=18)
+	{
+		cout<<name<<" is eligible to vote.";
+	}
+	else
+	{
+		cout<<name<<" is NOT eligible to vote.";
+	}
+	return 0;
+}
